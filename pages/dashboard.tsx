@@ -1,11 +1,13 @@
-import { useEffect, useState } from 'react';
-import { connectWallet } from '../lib/blockchain/contracts';
+
+import { useState } from 'react';
+import { connectKeplrWallet } from '../lib/blockchain/contracts'; // Ensure you're importing connectKeplrWallet correctly
+const CampaignABI = require('../lib/abis/Campaign.json'); // Assuming this is correct
 
 export default function Dashboard() {
-  const [donations, setDonations] = useState<any[]>([]); // You can replace `any` with a more specific type
+  const [donations, setDonations] = useState<any[]>([]); // Replace `any` with a more specific type
   const [address, setAddress] = useState<string>(''); // Explicitly define type for `address`
 
-  // Fix: Explicit type for userAddress
+  // Function to fetch donations (mock data for now)
   const fetchDonations = async (userAddress: string) => {
     // Replace with real API or blockchain call
     const mockDonations = [
@@ -15,15 +17,20 @@ export default function Dashboard() {
     return mockDonations;
   };
 
+  // Handle wallet connection
   const handleConnect = async () => {
     try {
-      const userAddress: string = await connectWallet(); // Specify that userAddress is a string
-      setAddress(userAddress);
-
-      const userDonations = await fetchDonations(userAddress);
-      setDonations(userDonations);
+      const userAddress = await connectKeplrWallet(); // Get the user's wallet address using Keplr
+      if (userAddress) {
+        setAddress(userAddress); // Set the user's address
+        // Fetch donations based on the user's address
+        const userDonations = await fetchDonations(userAddress);
+        setDonations(userDonations);
+      } else {
+        alert('Failed to connect wallet. Address is undefined.');
+      }
     } catch (error) {
-      alert('Failed to connect wallet. Please ensure MetaMask is installed.');
+      alert('Failed to connect wallet. Please ensure Keplr is installed.');
       console.error(error);
     }
   };
@@ -47,7 +54,7 @@ export default function Dashboard() {
             donations.map(donation => (
               <div key={donation.id} className="border p-4 mb-4 rounded">
                 <p>Campaign: {donation.campaign}</p>
-                <p>Amount: {donation.amount} ETH</p>
+                <p>Amount: {donation.amount} AND</p> {/* Assuming AND token */}
                 <p>Date: {donation.date}</p>
               </div>
             ))
