@@ -1,0 +1,15 @@
+/home/eugene/Projects/Andromeda/andromeda-charity-donation/target/debug/deps/libcw20_base-93b73c01fb5118a8.so: /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/lib.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/allowances.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/contract.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/enumerable.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/error.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/msg.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/state.rs
+
+/home/eugene/Projects/Andromeda/andromeda-charity-donation/target/debug/deps/libcw20_base-93b73c01fb5118a8.rlib: /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/lib.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/allowances.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/contract.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/enumerable.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/error.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/msg.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/state.rs
+
+/home/eugene/Projects/Andromeda/andromeda-charity-donation/target/debug/deps/cw20_base-93b73c01fb5118a8.d: /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/lib.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/allowances.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/contract.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/enumerable.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/error.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/msg.rs /home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/state.rs
+
+/home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/lib.rs:
+/home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/allowances.rs:
+/home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/contract.rs:
+/home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/enumerable.rs:
+/home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/error.rs:
+/home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/msg.rs:
+/home/eugene/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cw20-base-1.1.2/src/state.rs:
+
+# env-dep:CARGO_PKG_VERSION=1.1.2
