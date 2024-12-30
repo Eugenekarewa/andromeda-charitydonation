@@ -1,67 +1,47 @@
-# About
-The Andromeda Next.js Application Starter is a base setup for developers to start building without having to worry about the prerequisites. Containing all the key parts needed, it allows you to set up in minutes and start working on your builds. The starter contains the following setups:
-- Keplr integration
-- Andromeda Client (Devnet)
-- GraphQL integration
-- Contract execution hooks 
+# Andromeda Charity Donation Platform
 
-Using this as a starting template, any developer can create their own nextjs application with custom embeddables that suit their needs.
+## Overview
 
-This project specifically focuses on facilitating charity donations through a user-friendly interface, allowing users to create, manage, and contribute to various charitable campaigns.
+The Andromeda Charity Donation Platform is a decentralized application (dApp) designed to facilitate charitable donations using blockchain technology. This platform aims to provide transparency, security, and ease of use for both donors and charitable organizations.
 
 ## Features
-- **Charity Campaign Management**: Create and manage campaigns for various charitable causes.
-- **Donation Processing**: Securely process donations using blockchain technology.
-- **User Authentication**: Integrate with Keplr for user authentication and wallet management.
-- **Real-time Updates**: Get real-time updates on campaign progress and donation statistics.
 
-**Notes**:
-- It mainly uses Chakra UI, but developers can install any styling library, such as Tailwind, for example.
-- This setup is currently using our Devnet (Testnet for Devs). If you encounter any issues connecting to the GraphQL or chain, please contact us for support.
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). 
+- **Decentralized Donations**: Utilize blockchain technology to ensure that all transactions are secure and transparent.
+- **Campaign Management**: Charitable organizations can create and manage donation campaigns, providing details about their causes and goals.
+- **User-Friendly Interface**: A responsive and intuitive interface that allows users to easily navigate through campaigns and make donations.
+- **Real-Time Tracking**: Donors can track their contributions and see how funds are being utilized by the organizations.
+- **Multi-Currency Support**: Support for various cryptocurrencies to make donations accessible to a wider audience.
+- **Community Engagement**: Features that allow users to engage with campaigns, share them on social media, and encourage others to contribute.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the Andromeda Charity Donation Platform, follow these steps:
 
-```bash
-npm i
-# then 
-npm run dev
-# or
-yarn dev
-```
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/andromeda-charity-donation.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install Dependencies**:
+   Navigate to the project directory and install the required dependencies:
+   ```bash
+   cd andromeda-charity-donation
+   npm install
+   ```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3. **Run the Application**:
+   Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Usage
-To use the charity donation features, navigate to the dashboard where you can create new campaigns, view existing ones, and make donations. Follow the on-screen instructions to complete your transactions.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Access the Application**:
+   Open your browser and navigate to `http://localhost:3000` to view the application.
 
 ## Contributing
-We welcome contributions to this project! Please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the project's coding standards and includes appropriate tests.
 
-## Deploy on Vercel
+Contributions are welcome! If you would like to contribute to the Andromeda Charity Donation Platform, please fork the repository and submit a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Licensing
-
-[Terms and Conditions](https://github.com/andromedaprotocol/andromeda-core/blob/development/LICENSE/LICENSE.md)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
